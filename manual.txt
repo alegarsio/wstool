@@ -1,7 +1,7 @@
                                                                         Wstool Help Option 
                                                                    (c) Copyright alegrarsio 2022 
 # all command --------------------------:
-1.start = [usage = http]
+1.start  [usage = http]
 2.ch 
 3.scrap
 4.request
