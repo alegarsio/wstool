@@ -1,14 +1,13 @@
-                                                                        Wstool Help option 
-                                                                   (c) Copyright alegarsio 2022
-                                                                      alegrarsio2005@gmail.com
-all command --------------------------:
+                                                                        Wstool Help Option 
+                                                                   (c) Copyright alegrarsio 2022
+# all command --------------------------:
 1.start = [usage = http]
 2.ch 
 3.scrap
 4.request
 5.enum
 ---------------------------------------
-Requirement :
+# Requirement :
 1.Python3
 2.scapy , urllib3 , requests , colorama , dnspython -> [pip]
 3.Termux , cmd , terminal
@@ -26,3 +25,20 @@ request = requests + host [required]
 -ex:request https://example.com
 enum = enum + host (required)
 -ex = enum example.com
+__________________________________________
+# How to make virtual http-server/website :
+1.Create folder with name wstool : 
+2.Put wstool file on the folder [wstool]
+3.Create html = index.html
+4.start http-server
+Caution : if you want your website to be public on your private area, so just anyone in your area that can access it, please make sure you are connected with wifi -router.
+___________________________________________
+# How to use your scraping file as your virtual website
+1.Create folder with name wstool : 
+2.Put wstool file on the folder [wstool]
+3.Create html = index.html
+4.scrap https://example.com as index.html -> [Command that you need to use] 
+                               {filename}
+5.start http-server
+
+                
