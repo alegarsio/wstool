@@ -1,0 +1,27 @@
+                                                                        Wstool Help option 
+                                                                   (c) Copyright alegarsio 2022
+all command --------------------------:
+1.start = [usage = http]
+2.ch 
+3.scrap
+4.request
+5.enum
+---------------------------------------
+Requirement :
+1.Python3
+2.scapy , urllib3 , requests , colorama , dnspython -> [pip]
+3.Termux , cmd , terminal
+How to use : 
+python3 wstool.py [command]
+Ex : python3 wstool.py enum example.com
+----------------------------------------
+start = start [usage : http (required)] + address (required) + port (required) 
+-ex = start http 192.0.0.1 9000 or start http a 9000 . [! a = auto , CTRL + C = stop] 
+ch = ch + network_addr + network_addr/subnet
+-ex = ch 192.1.1.0 192.1.1.0/24 [! Warning use this feature without permission from concered is illegal]
+scrap = scrap + host (required) + as (requiered) + filename (required)
+-ex = scrap https://example.com as index.html [! Warning use this feuture is same like copyright] 
+request = requests + host [required] 
+-ex:request https://example.com
+enum = enum + host (required)
+-ex = enum example.com
