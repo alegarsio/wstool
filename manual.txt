@@ -1,5 +1,6 @@
                                                                         Wstool Help option 
                                                                    (c) Copyright alegarsio 2022
+                                                                      alegrarsio2005@gmail.com
 all command --------------------------:
 1.start = [usage = http]
 2.ch 
